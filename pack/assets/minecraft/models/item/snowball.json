@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/snowball"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/grenade"},
+		{"predicate": {"custom_model_data":2}, "model": "item/shotput"},
+		{"predicate": {"custom_model_data":3}, "model": "item/explosive_pie"},
+		{"predicate": {"custom_model_data":4}, "model": "item/nuke_grenade"},
+		{"predicate": {"custom_model_data":5}, "model": "item/holy_hand_grenade"},
+		{"predicate": {"custom_model_data":6}, "model": "item/ink_bomb"},
+		{"predicate": {"custom_model_data":7}, "model": "item/beach_ball"},
+		{"predicate": {"custom_model_data":8}, "model": "item/frost_grenade"}
+	]
+}

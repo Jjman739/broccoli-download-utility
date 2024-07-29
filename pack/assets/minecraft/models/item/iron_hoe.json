@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/iron_hoe"
+  },
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/cold_iron_hoe"},
+		{"predicate": {"custom_model_data":2}, "model": "item/weasel_knife"}
+	]
+}

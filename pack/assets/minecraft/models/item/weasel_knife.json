@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/weasel_knife"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [177, -90, 24],
+			"translation": [0, -4.75, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-177, 90, -24],
+			"translation": [0, -4.75, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [33, -79.5, -148],
+			"translation": [1.5, 1.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-10.17, 74.58, -156.75],
+			"translation": [1.5, 1.5, 0]
+		},
+		"ground": {
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

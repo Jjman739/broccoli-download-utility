@@ -1,0 +1,16 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/hopper_minecart"
+  },
+  
+  "overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/iron_giftbox"},
+		{"predicate": {"custom_model_data":2}, "model": "item/gold_giftbox"},
+		{"predicate": {"custom_model_data":3}, "model": "item/diamond_giftbox"},
+		{"predicate": {"custom_model_data":4}, "model": "item/netherite_giftbox"},
+		{"predicate": {"custom_model_data":5}, "model": "item/booster_pack"},
+		{"predicate": {"custom_model_data":6}, "model": "item/hat_box"}
+		
+	]
+}

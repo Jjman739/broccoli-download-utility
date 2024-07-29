@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/blaze_rod"
+  },
+  
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/copper_staff"},
+		{"predicate": {"custom_model_data":2}, "model": "item/iron_staff"},
+		{"predicate": {"custom_model_data":3}, "model": "item/gold_staff"},
+		{"predicate": {"custom_model_data":4}, "model": "item/cold_iron_staff"},
+		{"predicate": {"custom_model_data":5}, "model": "item/cleric_staff"},
+		{"predicate": {"custom_model_data":6}, "model": "item/necro_staff"},
+		{"predicate": {"custom_model_data":7}, "model": "item/voidsteel_staff"}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [144, 64],
+	"textures": {
+		"0": "item/hats/guest_head",
+		"particle": "item/hats/guest_head"
+	},
+	"elements": [
+		{
+			"from": [1, 12, -6],
+			"to": [15, 13, 1],
+			"faces": {
+				"north": {"uv": [7.11111, 8.75, 8.66667, 9], "texture": "#0"},
+				"east": {"uv": [6.33333, 8.75, 7.11111, 9], "texture": "#0"},
+				"south": {"uv": [9.44444, 8.75, 11, 9], "texture": "#0"},
+				"west": {"uv": [8.66667, 8.75, 9.44444, 9], "texture": "#0"},
+				"up": {"uv": [8.66667, 8.75, 7.11111, 7], "texture": "#0"},
+				"down": {"uv": [10.22222, 7, 8.66667, 8.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 12, 1],
+			"to": [15, 18, 15],
+			"faces": {
+				"north": {"uv": [7.88889, 3.5, 9.44444, 5], "texture": "#0"},
+				"east": {"uv": [6.33333, 3.5, 7.88889, 5], "texture": "#0"},
+				"south": {"uv": [11, 3.5, 12.55556, 5], "texture": "#0"},
+				"west": {"uv": [9.44444, 3.5, 11, 5], "texture": "#0"},
+				"up": {"uv": [9.44444, 3.5, 7.88889, 0], "texture": "#0"},
+				"down": {"uv": [11, 0, 9.44444, 3.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_righthand": {
+			"translation": [0, -1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, -1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, -4.5, 0],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"gui": {
+			"rotation": [26, -137, 0],
+			"translation": [-0.5, -3.25, 0],
+			"scale": [0.52, 0.52, 0.52]
+		},
+		"head": {
+			"translation": [0, -2.5, 0],
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"fixed": {
+			"translation": [0, -6.75, 3.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 1, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "hat",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

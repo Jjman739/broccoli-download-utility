@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/nether_star"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/emblem_of_balance"},
+		{"predicate": {"custom_model_data":2}, "model": "item/nuclear_reactor"},
+		{"predicate": {"custom_model_data":3}, "model": "item/graviton_reactor"}
+	]
+}

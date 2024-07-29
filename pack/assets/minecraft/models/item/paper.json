@@ -1,0 +1,23 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/paper"
+  },
+  
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/milestone_scroll"},
+		{"predicate": {"custom_model_data":2}, "model": "item/iron_ticket"},
+		{"predicate": {"custom_model_data":3}, "model": "item/gold_ticket"},
+		{"predicate": {"custom_model_data":4}, "model": "item/diamond_ticket"},
+		{"predicate": {"custom_model_data":5}, "model": "item/trading_card"},
+		{"predicate": {"custom_model_data":6}, "model": "item/netherite_ticket"},
+		{"predicate": {"custom_model_data":7}, "model": "item/rad_filter"},
+		{"predicate": {"custom_model_data":8}, "model": "item/tcg_ticket"},
+		{"predicate": {"custom_model_data":9}, "model": "item/skull_ticket"},
+		{"predicate": {"custom_model_data":10}, "model": "item/playing_card"},
+		{"predicate": {"custom_model_data":11}, "model": "item/planet_card"},
+		{"predicate": {"custom_model_data":12}, "model": "item/spectral_card"},
+		{"predicate": {"custom_model_data":13}, "model": "item/tarot_card"},
+		{"predicate": {"custom_model_data":14}, "model": "item/joker_card"}
+	]
+}

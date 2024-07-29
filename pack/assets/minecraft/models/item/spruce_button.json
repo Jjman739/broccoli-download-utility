@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/spruce_button_inventory",
+  
+  "overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/jaroh_hair"},
+		{"predicate": {"custom_model_data":2}, "model": "item/sunnynpc_hat"},
+		{"predicate": {"custom_model_data":3}, "model": "item/sweet_tooth_head"},
+		{"predicate": {"custom_model_data":4}, "model": "item/candy_head"}
+		]
+}

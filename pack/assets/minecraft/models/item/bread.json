@@ -1,0 +1,16 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/bread"
+  },
+  
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/muffin"},
+		{"predicate": {"custom_model_data":2}, "model": "item/cheeseburger"},
+		{"predicate": {"custom_model_data":3}, "model": "item/ham_sandwich"},
+		{"predicate": {"custom_model_data":4}, "model": "item/bagel"},
+		{"predicate": {"custom_model_data":5}, "model": "item/biobread"},
+		{"predicate": {"custom_model_data":6}, "model": "item/banana_bread"}
+		
+	]
+}

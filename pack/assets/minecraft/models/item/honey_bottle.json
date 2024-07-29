@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/honey_bottle"
+  },
+  
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/sunny_d"},
+		{"predicate": {"custom_model_data":2}, "model": "item/fizzy_lifting_drink"}
+	]
+}

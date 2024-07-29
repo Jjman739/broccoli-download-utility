@@ -1,0 +1,75 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [35, 35],
+	"textures": {
+		"0": "item/hats/straw_hat",
+		"particle": "item/hats/straw_hat"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 4, 12],
+			"faces": {
+				"north": {"uv": [3.65714, 3.65714, 7.31429, 5.48571], "texture": "#0"},
+				"east": {"uv": [0, 3.65714, 3.65714, 5.48571], "texture": "#0"},
+				"south": {"uv": [10.97143, 3.65714, 14.62857, 5.48571], "texture": "#0"},
+				"west": {"uv": [7.31429, 3.65714, 10.97143, 5.48571], "texture": "#0"},
+				"up": {"uv": [7.31429, 3.65714, 3.65714, 0], "texture": "#0"},
+				"down": {"uv": [10.97143, 0, 7.31429, 3.65714], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"north": {"uv": [0, 13.25714, 7.31429, 13.25714], "texture": "#0"},
+				"east": {"uv": [-7.31429, 13.25714, 0, 13.25714], "texture": "#0"},
+				"south": {"uv": [14.62857, 13.25714, 21.94286, 13.25714], "texture": "#0"},
+				"west": {"uv": [7.31429, 13.25714, 14.62857, 13.25714], "texture": "#0"},
+				"up": {"uv": [7.31429, 13.25714, 0, 5.94286], "texture": "#0"},
+				"down": {"uv": [7.31429, 5.94286, 0, 13.25714], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -90],
+			"translation": [7.5, -0.75, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, -90],
+			"translation": [7.5, -0.75, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 5, -34],
+			"translation": [6.5, 5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 5, -34],
+			"translation": [6.5, 5, 0]
+		},
+		"ground": {
+			"translation": [0, 5.75, 0]
+		},
+		"gui": {
+			"rotation": [32, -41, 0],
+			"translation": [0, 3.75, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 17.5, 0],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"fixed": {
+			"translation": [0, 6, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

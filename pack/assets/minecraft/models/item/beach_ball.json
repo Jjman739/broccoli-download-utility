@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/beach_ball"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.25, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -55, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -55, 0]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		}
+	}
+}

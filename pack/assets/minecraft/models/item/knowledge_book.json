@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/knowledge_book"
+	},
+  
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/custom_recipe"},
+		{"predicate": {"custom_model_data":2}, "model": "item/speech"},
+		{"predicate": {"custom_model_data":3}, "model": "item/shop"},
+		{"predicate": {"custom_model_data":4}, "model": "item/science_journal"},
+		{"predicate": {"custom_model_data":5}, "model": "item/food_magazine"}
+	]
+}

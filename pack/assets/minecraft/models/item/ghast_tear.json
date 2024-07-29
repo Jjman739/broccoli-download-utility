@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/ghast_tear"
+  },
+  
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/dark_essence"},
+		{"predicate": {"custom_model_data":2}, "model": "item/ethereal_essence"},
+		{"predicate": {"custom_model_data":3}, "model": "item/party_essence"},
+		{"predicate": {"custom_model_data":4}, "model": "item/sand_dollar"}
+	]
+}
