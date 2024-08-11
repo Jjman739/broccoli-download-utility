@@ -11,6 +11,7 @@
 		{"predicate": {"custom_model_data":4}, "model": "item/cold_iron_staff"},
 		{"predicate": {"custom_model_data":5}, "model": "item/cleric_staff"},
 		{"predicate": {"custom_model_data":6}, "model": "item/necro_staff"},
-		{"predicate": {"custom_model_data":7}, "model": "item/voidsteel_staff"}
+		{"predicate": {"custom_model_data":7}, "model": "item/voidsteel_staff"},
+		{"predicate": {"custom_model_data":8}, "model": "item/geyser_staff"}
 	]
 }
